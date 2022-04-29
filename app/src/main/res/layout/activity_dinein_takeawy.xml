@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFE5BF"
+    tools:context=".DineinTakeawy"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="#DB5C00"
+                android:fontFamily="@font/archivo_black"
+                android:gravity="center"
+                android:text="SELECT YOUR OPTION"
+                android:textColor="#FAF7F7"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="370dp"
+                android:layout_height="60dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginRight="20dp"
+                android:text="DINE-IN"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                app:backgroundTint="#FF5722" />
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="-10dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginRight="20dp"
+                android:gravity="left"
+                android:text="TABLE RESERVATION"
+                android:textSize="20sp"
+                android:textStyle="normal"
+                app:backgroundTint="#E48E72" />
+
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="-10dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginRight="20dp"
+                android:gravity="left"
+                android:text="VIEW MENU CARD"
+                android:textSize="20sp"
+                android:textStyle="normal"
+                app:backgroundTint="#E48E72" />
+
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="370dp"
+                android:layout_height="60dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginRight="20dp"
+                android:text="TAKEAWAY"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                app:backgroundTint="#FF5722" />
+
+            <Button
+                android:id="@+id/button12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="80dp"
+                android:layout_marginLeft="80dp"
+                android:layout_marginEnd="80dp"
+                android:layout_marginRight="80dp"
+                android:fontFamily="@font/archivo_black"
+                android:padding="10dp"
+                android:text="LOGOUT"
+                android:textSize="18sp"
+                app:backgroundTint="#DD9326" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/mainbg">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#AB363535" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="40dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginEnd="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginBottom="30dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView20"
+                android:layout_width="match_parent"
+                android:layout_height="185dp"
+                app:srcCompat="@drawable/logo" />
+
+            <TextView
+                android:id="@+id/textView60"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30dp"
+                android:fontFamily="@font/aclonica"
+                android:text="Healthy Bytes"
+                android:textColor="#8BC34A"
+                android:textSize="44sp" />
+
+            <Button
+                android:id="@+id/button9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:fontFamily="@font/archivo_black"
+                android:shadowColor="#D1A76A"
+                android:text="LOGIN"
+                android:textSize="18sp"
+                app:backgroundTint="#DD9326" />
+
+            <Button
+                android:id="@+id/button10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:fontFamily="@font/archivo_black"
+                android:text="REGISTER"
+                android:textSize="18sp"
+                app:backgroundTint="#DD9326" />
+
+<!--            <TextView-->
+<!--                android:id="@+id/textView61"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:fontFamily="@font/adamina"-->
+<!--                android:gravity="center"-->
+<!--                android:text="Login as Admin"-->
+<!--                android:textColor="#F4F4F4"-->
+<!--                android:textSize="18sp" />-->
+
+            <Button
+                android:id="@+id/button11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-25dp"
+                android:fontFamily="@font/adamina"
+                android:gravity="center"
+                android:text="Login as Admin"
+                android:textColor="#F4F4F4"
+                android:textSize="14sp"
+                app:backgroundTint="#00DD9326" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Aayushi/AndroidStudioProjects/RestaurantApp/app/src/main/res/drawable/backgroundeditview.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/Aayushi/AndroidStudioProjects/RestaurantApp/app/src/main/res/drawable/ic_launcher_background.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/Aayushi/AndroidStudioProjects/RestaurantApp/app/src/main/res/layout/activity_admin_function.xml" value="0.18489583333333334" />
+        <entry key="..\:/Users/Aayushi/AndroidStudioProjects/RestaurantApp/app/src/main/res/layout/activity_adminlogin.xml" value="0.25" />
+        <entry key="..\:/Users/Aayushi/AndroidStudioProjects/RestaurantApp/app/src/main/res/layout/activity_breakfastmenupage.xml" value="0.264" />
+        <entry key="..\:/Users/Aayushi/AndroidStudioProjects/RestaurantApp/app/src/main/res/layout/activity_charger_info.xml" value="0.1875" />
+        <entry key="..\:/Users/Aayushi/AndroidStudioProjects/RestaurantApp/app/src/main/res/layout/activity_cleanser_info.xml" value="0.234375" />
+        <entry key="..\:/Users/Aayushi/AndroidStudioProjects/RestaurantApp/app/src/main/res/layout/activity_dinein_takeawy.xml" value="0.264" />
+        <entry key="..\:/Users/Aayushi/AndroidStudioProjects/RestaurantApp/app/src/main/res/layout/activity_dosa_info.xml" value="0.25" />
+        <entry key="..\:/Users/Aayushi/AndroidStudioProjects/RestaurantApp/app/src/main/res/layout/activity_earthy_info.xml" value="0.25" />
+        <entry key="..\:/Users/Aayushi/AndroidStudioProjects/RestaurantApp/app/src/main/res/layout/activity_fibre_info.xml" value="0.25" />
+        <entry key="..\:/Users/Aayushi/AndroidStudioProjects/RestaurantApp/app/src/main/res/layout/activity_indian_wrestler_info.xml" value="0.25" />
+        <entry key="..\:/Users/Aayushi/AndroidStudioProjects/RestaurantApp/app/src/main/res/layout/activity_jain_info.xml" value="0.25" />
+        <entry key="..\:/Users/Aayushi/AndroidStudioProjects/RestaurantApp/app/src/main/res/layout/activity_juices.xml" value="0.20222222222222222" />
+        <entry key="..\:/Users/Aayushi/AndroidStudioProjects/RestaurantApp/app/src/main/res/layout/activity_login.xml" value="0.264" />
+        <entry key="..\:/Users/Aayushi/AndroidStudioProjects/RestaurantApp/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/Aayushi/AndroidStudioProjects/RestaurantApp/app/src/main/res/layout/activity_mealbowlmenupage.xml" value="0.25" />
+        <entry key="..\:/Users/Aayushi/AndroidStudioProjects/RestaurantApp/app/src/main/res/layout/activity_menu_card.xml" value="0.2" />
+        <entry key="..\:/Users/Aayushi/AndroidStudioProjects/RestaurantApp/app/src/main/res/layout/activity_my_cart.xml" value="0.4" />
+        <entry key="..\:/Users/Aayushi/AndroidStudioProjects/RestaurantApp/app/src/main/res/layout/activity_poha_info.xml" value="0.25" />
+        <entry key="..\:/Users/Aayushi/AndroidStudioProjects/RestaurantApp/app/src/main/res/layout/activity_register.xml" value="0.25" />
+        <entry key="..\:/Users/Aayushi/AndroidStudioProjects/RestaurantApp/app/src/main/res/layout/activity_saladmenupage.xml" value="0.25" />
+        <entry key="..\:/Users/Aayushi/AndroidStudioProjects/RestaurantApp/app/src/main/res/layout/activity_splash.xml" value="0.140625" />
+        <entry key="..\:/Users/Aayushi/AndroidStudioProjects/RestaurantApp/app/src/main/res/layout/activity_superbowl_info.xml" value="0.25" />
+        <entry key="..\:/Users/Aayushi/AndroidStudioProjects/RestaurantApp/app/src/main/res/layout/activity_table_reservation.xml" value="0.4" />
+        <entry key="..\:/Users/Aayushi/AndroidStudioProjects/RestaurantApp/app/src/main/res/layout/activity_thaibowl_info.xml" value="0.25" />
+        <entry key="..\:/Users/Aayushi/AndroidStudioProjects/RestaurantApp/app/src/main/res/layout/activity_tofu_info.xml" value="0.25" />
+        <entry key="..\:/Users/Aayushi/AndroidStudioProjects/RestaurantApp/app/src/main/res/layout/activity_vision_info.xml" value="0.1875" />
+        <entry key="..\:/Users/Aayushi/AndroidStudioProjects/RestaurantApp/app/src/main/res/layout/breakfastmenupage.xml" value="0.25" />
+        <entry key="..\:/Users/Aayushi/AndroidStudioProjects/RestaurantApp/app/src/main/res/layout/cart_items.xml" value="0.4" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

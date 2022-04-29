@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.restaurantapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.RestaurantApp">
+        <activity
+            android:name=".MyCart"
+            android:exported="false" />
+        <activity
+            android:name=".charger_info"
+            android:exported="false" />
+        <activity
+            android:name=".vision_info"
+            android:exported="false" />
+        <activity
+            android:name=".cleanser_info"
+            android:exported="false" />
+        <activity
+            android:name=".jain_info"
+            android:exported="false" />
+        <activity
+            android:name=".earthy_info"
+            android:exported="false" />
+        <activity
+            android:name=".fibre_info"
+            android:exported="false" />
+        <activity
+            android:name=".saladmenupage"
+            android:exported="false" />
+        <activity
+            android:name=".thaibowl_info"
+            android:exported="false" />
+        <activity
+            android:name=".superbowl_info"
+            android:exported="false" />
+        <activity
+            android:name=".indian_wrestler_info"
+            android:exported="false" />
+        <activity
+            android:name=".mealbowlmenupage"
+            android:exported="false" />
+        <activity
+            android:name=".dosa_info"
+            android:exported="false" />
+        <activity
+            android:name=".tofu_info"
+            android:exported="false" />
+        <activity
+            android:name=".poha_info"
+            android:exported="false" />
+        <activity
+            android:name=".breakfastmenupage"
+            android:exported="false" />
+        <activity
+            android:name=".Juices"
+            android:exported="false" />
+        <activity
+            android:name=".AdminFunction"
+            android:exported="false" />
+        <activity
+            android:name=".Adminlogin"
+            android:exported="false" />
+        <activity
+            android:name=".MenuCard"
+            android:exported="false" />
+        <activity
+            android:name=".TableReservation"
+            android:exported="false" />
+        <activity
+            android:name=".splash"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".DineinTakeawy"
+            android:exported="false" />
+        <activity
+            android:name=".Register"
+            android:exported="false" />
+        <activity
+            android:name=".Login"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

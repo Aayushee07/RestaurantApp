@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".cleanser_info"
+    android:background="#FFE5BF"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="#DB5C00"
+                android:fontFamily="@font/archivo_black"
+                android:gravity="center"
+                android:text="Cleanser"
+                android:textColor="#FAF7F7"
+                android:textSize="30sp" />
+
+            <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="347dp"
+                android:layout_height="233dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp"
+                app:srcCompat="@drawable/cleanser" />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="75dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="350dp"
+                android:layout_marginRight="350dp"
+                android:paddingLeft="5dp"
+                android:text="Vegan"
+                android:textSize="14sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="80dp"
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="-20dp"
+                android:layout_marginEnd="230dp"
+                android:layout_marginRight="230dp"
+                android:text="Gluten Free"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:text="What makes this dish special"
+                android:textSize="23sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="match_parent"
+                android:layout_height="111dp"
+                android:layout_marginTop="5dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:text="Boost your immune system with this delicious vegetable juice! This deep red juice will seem like an elixir for life once you experience its healing properties. Turn heads with glowing skin and a detoxified soul with this healthy juice that you wouldn’t mind getting addicted to."
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="154dp"
+                android:layout_height="41dp"
+                android:layout_marginTop="20dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:text="What’s inside"
+                android:textSize="23sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView27"
+                android:layout_width="93dp"
+                android:layout_height="53dp"
+                android:layout_marginTop="5dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:text="Calories
+                              118kcal"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView28"
+                android:layout_width="93dp"
+                android:layout_height="53dp"
+                android:layout_marginStart="120dp"
+                android:layout_marginLeft="120dp"
+                android:layout_marginTop="-52dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:text="Proteins
+                              1.5g"
+                android:textStyle="bold|italic"/>
+
+            <TextView
+                android:id="@+id/textView29"
+                android:layout_width="102dp"
+                android:layout_height="53dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:text="Carbohydrates
+                              24.9g"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView30"
+                android:layout_width="93dp"
+                android:layout_height="53dp"
+                android:layout_marginStart="120dp"
+                android:layout_marginLeft="120dp"
+                android:layout_marginTop="-52dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:text="Fats
+                              0.45g"
+                android:textStyle="bold|italic"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

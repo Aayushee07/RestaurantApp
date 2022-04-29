@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MyCart"
+    android:background="#FFE5BF"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="#DB5C00"
+                android:fontFamily="@font/archivo_black"
+                android:gravity="center"
+                android:text="My Cart"
+                android:textColor="#FAF7F7"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="374dp"
+                android:layout_height="74dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:background="#FFFFFF"
+                android:gravity="center"
+                android:text="Total Price : Rs"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rec"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                tools:listitem="@layout/cart_items">
+
+            </androidx.recyclerview.widget.RecyclerView>
+
+<!--            <Button-->
+<!--                android:id="@+id/button13"-->
+<!--                android:layout_width="227dp"-->
+<!--                android:layout_height="64dp"-->
+<!--                android:layout_marginStart="85dp"-->
+<!--                android:layout_marginTop="-100dp"-->
+<!--                android:backgroundTint="#FF9900"-->
+<!--                android:text="Buy Now" />-->
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

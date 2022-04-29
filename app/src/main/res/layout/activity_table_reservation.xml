@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFE5BF"
+    android:orientation="vertical"
+    tools:context=".TableReservation">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginBottom="100dp"
+                android:background="#DB5C00"
+                android:fontFamily="@font/archivo_black"
+                android:gravity="center"
+                android:text="Table Reservation"
+                android:textColor="#FAF7F7"
+                android:textSize="24sp" />
+
+            <EditText
+                android:id="@+id/editTextNumber"
+                android:layout_width="356dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="-50dp"
+                android:layout_marginBottom="20dp"
+
+                android:backgroundTint="#F8F1F1"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:hint="         No. of Guests"
+                android:textColor="#B6ADAD" />
+
+            <EditText
+                android:id="@+id/editTextDate"
+                android:layout_width="356dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="-5dp"
+                android:layout_marginBottom="20dp"
+
+                android:backgroundTint="#F8F1F1"
+                android:ems="10"
+                android:inputType="text|date"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:hint="         Date"
+                android:textColor="#B6ADAD" />
+
+            <EditText
+                android:id="@+id/editTextTime"
+                android:layout_width="356dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="-5dp"
+                android:layout_marginBottom="20dp"
+
+                android:backgroundTint="#F8F1F1"
+                android:ems="10"
+                android:inputType="text|time"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:hint="         Time"
+                android:textColor="#B6ADAD" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginStart="80dp"
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="70dp"
+                android:layout_marginEnd="80dp"
+                android:layout_marginRight="80dp"
+                android:backgroundTint="#FF9900"
+                android:text="Go"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
